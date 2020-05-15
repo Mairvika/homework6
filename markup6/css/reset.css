@@ -1,0 +1,51 @@
+html, body, div, span, h1, h2, p, a, img, b, ol, ul, li,tr, th, td, footer, header, hgroup,
+menu, nav, output, mark, audio, video {
+	margin: 0;/*все внешние отступы по 0*/
+	padding: 0;/*все внутренние отступы по 0*/
+	border: 0;/*все границы по 0*/
+	font-size: 100%;/*по стандарту 16px*/
+	vertical-align: baseline;/*по базовой линии*/
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+	display: block; /*уточнении что блочные элементы для браузеров*/
+}
+*,
+*:before,
+*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}/*дописанный box-sizing*/
+body {
+	line-height: 1.2;/*расстоянии между линиями*/
+}
+/*для числового списка*/
+ol {
+	padding-left: 1.4em;/*расстояние слева*/
+	list-style: decimal;/*тип букв на арабские числа*/
+}
+/*для маркированного списка*/
+ul {
+	padding-left: 1.4em;/*расстояние слева*/
+	list-style: square;/*тип букв на маркер в виде квадрата*/
+}
+/*для таблицы*/
+table {
+	border-collapse: collapse;/*линия между ячейками 1*/
+	border-spacing: 0;/*отсутствие рамки*/
+}
+.display {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+.float {
+	font-size: 14px;
+}
+.reset{
+	border: 3px dotted yellow;
+	text-align: center;
+}
+
